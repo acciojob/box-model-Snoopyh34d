@@ -1,16 +1,63 @@
 <!DOCTYPE html>
-
 <html>
-
 <head>
-	<link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <style>
+        /* Reset default margin and padding for all elements */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Center the container horizontally and add padding and border */
+.container {
+    background-color: gray;
+    width: 250px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 2px solid black;
+    text-align: center;
+    border-radius: 44px;
+    width: 500px;
+}
+
+/* Style for the red block */
+.red {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border-radius: 50%; /* Makes it a circle */
+    display: inline-block;
+    margin: 10px; /* Add spacing between blocks */
+}
+
+/* Style for the green block */
+.green {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 10px;
+}
+
+/* Style for the yellow block */
+.yellow {
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 10px;
+}
+
+    </style>
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
-
+    <div class="container">
+        <div class="green"></div>
+        <div class="yellow"></div>
+        <div class="red"></div>
+    </div>
 </body>
-
 </html>
